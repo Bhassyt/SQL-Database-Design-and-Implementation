@@ -119,3 +119,85 @@ CREATE TABLE `payments`
 PRIMARY KEY(`payment_id`)
 );
 ```
+
+**Database 4:** `database_4`
+```
+-- Creating the database
+ DROP DATABASE IF EXISTS `database_4`;
+ CREATE DATABASE `database_4`;
+ USE database_4;
+
+-- Creating the customers table
+CREATE TABLE `customers`
+(
+`customer_id`INT(20),	
+`first_name`CHAR(50),	
+`last_name`CHAR(50),	
+`birth_date`DATE,	
+`phone`VARCHAR(30),	
+`address`VARCHAR(50),
+`city`VARCHAR(50),	
+`state`CHAR(50),
+`points`INT(20),
+PRIMARY KEY(`customer_id`)
+);
+
+-- Creating the order_item_notes table
+CREATE TABLE `order_item_notes`
+(
+`note_id`INT(10),
+`order_id`INT(10),
+`product_id`INT(10),
+`note`CHAR(30),
+PRIMARY KEY(`note_id`)
+);
+
+-- Creating the order_items table
+CREATE TABLE `order_items`
+(
+`order_id`INT(10),
+`product_id`INT(10),
+`quantity`INT(10),
+`unit_price`DECIMAL(5,2),
+PRIMARY KEY(`order_id`, `product_id`)
+);
+
+-- Creating the order_statuses table
+CREATE TABLE `order_statuses`
+(
+`order_status_id`INT(10),
+`name`CHAR(30),
+PRIMARY KEY(`order_status_id`)
+);
+
+-- Creating the orders table
+CREATE TABLE `orders`
+(
+`order_id`INT(10),
+`customer_id`INT(10),
+`order_date`DATE,
+`status`INT(10),
+`comments`VARCHAR(200),
+`shipped_date`DATE,
+`shipper_id`INT(10),
+PRIMARY KEY(`order_id`)
+);
+
+-- Creating the products table
+CREATE TABLE `products`
+(
+`product_id`INT(10),
+`name`VARCHAR(50),
+`quantity_in_stock`INT(10),
+`unit_price`DECIMAL(5,2),
+PRIMARY KEY(`product_id`)
+);
+
+-- Creating the shippers table
+CREATE TABLE `shippers`
+(
+`shipper_id`INT(10),
+`name`VARCHAR(50),
+PRIMARY KEY(`shipper_id`)
+);
+```

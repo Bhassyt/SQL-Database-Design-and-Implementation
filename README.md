@@ -377,3 +377,16 @@ INSERT INTO `shippers` VALUES (3, 'Scatterfield LLC');
 INSERT INTO `shippers` VALUES (4, 'Mraz, Renner and Nolan');
 INSERT INTO `shippers` VALUES (5, 'Waters, Mayert and Prohaska');
 ```
+
+## Execution Results
+Below are some example queries and their results to demonstrate the functionality of the databases:
+
+**Database 1:** database_1
+List all employees:
+```
+SELECT * FROM `employees`;
+```
+
+**Result:**
+![My Image](https://github.com/yourusername/yourrepository/raw/main/assets/myimage.png)
+

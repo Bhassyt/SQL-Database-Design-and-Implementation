@@ -387,3 +387,12 @@ List all employees:
 SELECT * FROM `employees`;
 ```
 
+
+
+SELECT * FROM `employees`;
+
+SELECT * FROM `products`;
+
+SELECT * FROM `clients`;
+
+SELECT * FROM `shippers`;

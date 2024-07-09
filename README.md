@@ -201,3 +201,5 @@ CREATE TABLE `shippers`
 PRIMARY KEY(`shipper_id`)
 );
 ```
+
+## Data Insertion

@@ -388,5 +388,6 @@ SELECT * FROM `employees`;
 ```
 
 **Result:**
-![My Image](Database_1.png)
+![Alt text](Database_1.png)
+
 

@@ -15,3 +15,6 @@ This SQL script demonstrates my ability to design and implement relational datab
 
 ## Database and Table creation
 ---
+The first part of the script creates the databases and their respective tables.
+**Database 1:**`Dtabase_1`
+```

@@ -388,5 +388,5 @@ SELECT * FROM `employees`;
 ```
 
 **Result:**
-![My Image](https://github.com/yourusername/yourrepository/raw/main/assets/myimage.png)
+![My Image](Database_1.png)
 

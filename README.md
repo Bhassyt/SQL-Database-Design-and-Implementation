@@ -65,3 +65,57 @@ CREATE TABLE `employees`
  PRIMARY KEY(`product_id`)
  );
 ```
+
+**Database 3:** `database_3`
+```
+-- Creating the database
+ DROP DATABASE IF EXISTS `database_3`;
+ CREATE DATABASE `database_3`;
+ USE database_3;
+
+-- Creating the clients table
+CREATE TABLE `clients`
+(
+`client_id`INT(20),
+`name`CHAR(50),
+`address`VARCHAR(50),
+`city`CHAR(30),
+`state`CHAR(30),
+`phone`VARCHAR(50),
+PRIMARY KEY(`client_id`)
+);
+
+-- Creating the invoices table
+CREATE TABLE `invoices`
+(
+`invoice_id`INT(10),
+`number`VARCHAR(20),
+`client_id`INT(10),
+`invoice_total`DECIMAL(5,2),
+`payment_total`DECIMAL(5,2),
+`invoice_date`DATE,
+`due_date`DATE,
+`payment_date`DATE,
+PRIMARY KEY(`invoice_id`)
+);
+
+-- Creating the payment_methods table
+CREATE TABLE `payment_methods`
+(
+`payment_method_id`INT(20),
+`name`CHAR(30),
+PRIMARY KEY(`payment_method_id`)
+);
+
+-- Creating the payments table
+CREATE TABLE `payments`
+(
+`payment_id`INT(10),
+`client_id`INT(10),
+`invoice_id`INT(10),
+`date`DATE,
+`amount`DECIMAL(5,2),
+`payment_method`INT(10),
+PRIMARY KEY(`payment_id`)
+);
+```

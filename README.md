@@ -396,3 +396,6 @@ SELECT * FROM `products`;
 SELECT * FROM `clients`;
 
 SELECT * FROM `shippers`;
+
+
+![](Database_1.png)

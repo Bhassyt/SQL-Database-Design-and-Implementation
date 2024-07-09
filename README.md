@@ -398,4 +398,4 @@ SELECT * FROM `clients`;
 SELECT * FROM `shippers`;
 
 
-![](Database_1.png)
+![](database-1.jpg)

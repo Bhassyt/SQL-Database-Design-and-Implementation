@@ -387,8 +387,3 @@ List all employees:
 SELECT * FROM `employees`;
 ```
 
-**Result:**
-![Database_1](https://github.com/Bhassyt/SQL-Database-Design-and-Implementation/assets/158210164/15fdc597-6bb6-48dc-a758-0ee13b8166bf)
-
-
-

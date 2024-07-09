@@ -388,6 +388,7 @@ SELECT * FROM `employees`;
 ```
 
 **Result:**
-!([Database_1.png](https://github.com/Bhassyt/SQL-Database-Design-and-Implementation/blob/main/Database_1.png))
+
+
 
 

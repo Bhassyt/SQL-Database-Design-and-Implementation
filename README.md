@@ -379,6 +379,7 @@ INSERT INTO `shippers` VALUES (5, 'Waters, Mayert and Prohaska');
 ```
 
 ## Execution Results
+---
 Below are some example queries and their results to demonstrate the functionality of the databases:
 
 **Database 1:** `database_1`
@@ -412,3 +413,7 @@ Show shippers table:
 SELECT * FROM `shippers`;
 ```
 **Result:**
+
+## Conclusion
+---
+This SQL script effectively showcases my proficiency in designing and implementing relational databases. By creating and populating four distinct databases, it demonstrates my capability to handle various types of data and relationships. Each database is thoughtfully structured with multiple tables, carefully selected data types, and well-defined primary keys. This approach ensures robust data integrity and facilitates efficient querying, highlighting my skill in developing organized and functional database systems.

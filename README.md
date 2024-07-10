@@ -420,6 +420,8 @@ SELECT * FROM `shippers`;
 ```
 **Result:**
 
+![](https://github.com/Bhassyt/SQL-Database-Design-and-Implementation/blob/main/database4.jpg)
+
 ## Conclusion
 ---
 This SQL script effectively showcases my proficiency in designing and implementing relational databases. By creating and populating four distinct databases, it demonstrates my capability to handle various types of data and relationships. Each database is thoughtfully structured with multiple tables, carefully selected data types, and well-defined primary keys. This approach ensures robust data integrity and facilitates efficient querying, highlighting my skill in developing organized and functional database systems.

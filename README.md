@@ -410,6 +410,8 @@ SELECT * FROM `clients`;
 ```
 **Result:**
 
+![](https://github.com/Bhassyt/SQL-Database-Design-and-Implementation/blob/main/database3.jpg)
+
 **Database 4:** `database_4`
 
 Show shippers table:

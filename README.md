@@ -390,6 +390,8 @@ SELECT * FROM `employees`;
 ```
 **Result:**
 
+![](https://github.com/Bhassyt/SQL-Database-Design-and-Implementation/blob/main/database1.jpg)
+
 **Database 2:** `database_2`
 
 Show products table:

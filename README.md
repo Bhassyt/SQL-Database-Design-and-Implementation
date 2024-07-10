@@ -381,21 +381,34 @@ INSERT INTO `shippers` VALUES (5, 'Waters, Mayert and Prohaska');
 ## Execution Results
 Below are some example queries and their results to demonstrate the functionality of the databases:
 
-**Database 1:** database_1
-List all employees:
+**Database 1:** `database_1`
+
+Show employees table:
 ```
 SELECT * FROM `employees`;
 ```
+**Result:**
 
+**Database 2:** `database_2`
 
-
-SELECT * FROM `employees`;
-
+Show products table:
+```
 SELECT * FROM `products`;
+```
+**Result:**
 
+**Database 3:** `database_3`
+
+Show clients table:
+```
 SELECT * FROM `clients`;
+```
+**Result:**
 
+**Database 4:** `database_4`
+
+Show shippers table:
+```
 SELECT * FROM `shippers`;
-
-
-![](database-1.jpg)
+```
+**Result:**

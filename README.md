@@ -400,6 +400,8 @@ SELECT * FROM `products`;
 ```
 **Result:**
 
+![](https://github.com/Bhassyt/SQL-Database-Design-and-Implementation/blob/main/database2.jpg)
+
 **Database 3:** `database_3`
 
 Show clients table:
